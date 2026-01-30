@@ -1,0 +1,71 @@
+# Xcode
+build/
+DerivedData/
+*.xcarchive
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+Packages/
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# App-specific
+*.dmg
+*.app
+*.pkg
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets / Environment
+.env
+*.pem
+*.p12
+*.mobileprovision
+
+# Database files (local testing)
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Claude Code / AI Assistant files
+.claude/
+.interface-design/
+PROJECT_CONTEXT.md
+ARCHITECTURE.md
