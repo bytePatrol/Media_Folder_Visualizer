@@ -39,6 +39,7 @@
 		030 /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130; };
 		031 /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 201; };
 		032 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 132; };
+		033 /* ffprobe in Resources */ = {isa = PBXBuildFile; fileRef = 133; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		130 /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
 		131 /* VideoAnalyzer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoAnalyzer.entitlements; sourceTree = "<group>"; };
 		132 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		133 /* ffprobe */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffprobe; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,8 +169,17 @@
 			isa = PBXGroup;
 			children = (
 				124 /* Assets.xcassets */,
+				418 /* Binaries */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		418 /* Binaries */ = {
+			isa = PBXGroup;
+			children = (
+				133 /* ffprobe */,
+			);
+			path = Binaries;
 			sourceTree = "<group>";
 		};
 		408 /* Enums */ = {
@@ -329,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				024 /* Assets.xcassets in Resources */,
+				033 /* ffprobe in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
