@@ -71,7 +71,7 @@ High-performance scanning with real-time progress tracking. Clickable error logs
 ## Requirements
 
 - macOS 14.0 (Sonoma) or later
-- ffprobe (bundled, or installed via Homebrew: `brew install ffmpeg`)
+- ffprobe is bundled with the app (no additional installation required)
 
 ## Installation
 
