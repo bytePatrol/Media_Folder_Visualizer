@@ -78,6 +78,29 @@ High-performance scanning with real-time progress tracking. Clickable error logs
 ### Download
 Download the latest DMG from the [Releases](../../releases) page.
 
+1. Open the DMG file
+2. Drag **Video Analyzer** to your **Applications** folder
+3. Open the app (see note below about first launch)
+
+### First Launch - Security Notice
+
+Since this app is not signed with an Apple Developer ID, macOS will show a security warning:
+
+> "VideoAnalyzer.app cannot be opened because the developer cannot be verified"
+
+**To open the app:**
+
+1. **Right-click** (or Control-click) on the app in Finder
+2. Select **Open** from the context menu
+3. Click **Open** in the dialog that appears
+
+You only need to do this once. After the first launch, the app will open normally.
+
+Alternatively, you can allow the app via System Settings:
+1. Go to **System Settings** → **Privacy & Security**
+2. Scroll down to find the message about VideoAnalyzer being blocked
+3. Click **Open Anyway**
+
 ### Build from Source
 ```bash
 git clone https://github.com/bytePatrol/Media_Folder_Visualizer.git
